@@ -9,6 +9,9 @@ int main(void)
 {
 	int n;
 
+	srand(time(o));
+	n = rand() - RAND_MAAX / 2;
+
 	if (n == 0)
 	{
 		printf("%d is zero", &n);
