@@ -22,4 +22,12 @@ void print_alphabet(void);
  */
 
 void print_alphabet_x10(void);
+
+/**
+ * _islower(int c) - prints 1 if number is lower case
+ *
+ * Return: Always 0 or 1
+ */
+
+int _islower(int c);
 #endif
