@@ -54,4 +54,12 @@ int add(int, int);
  */
 
 int print_last_digit(int);
+
+/**
+ * _abs - prints absolute value of a digit
+ *
+ * Return: absolute value
+ */
+
+int _abs(int);
 #endif

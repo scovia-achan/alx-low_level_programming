@@ -12,8 +12,10 @@
 int print_last_digit(int a)
 {
 	int remainder;
+	char to_char;
 
 	remainder = a % 10;
+	to_char = char(remainder);
 
-	return (remainder);
+	return (to_char);
 }
