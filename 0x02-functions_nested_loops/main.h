@@ -62,4 +62,12 @@ int print_last_digit(int);
  */
 
 int _abs(int);
+
+/**
+ * print_sign - return sign
+ *
+ * Return: return sign
+ */
+
+int print_sign(int n);
 #endif
