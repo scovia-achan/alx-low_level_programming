@@ -30,4 +30,12 @@ void print_alphabet_x10(void);
  */
 
 int _islower(int c);
+
+/**
+ * _isalpha(int c) - checks if letter is alphabet then appends 1
+ *
+ * Return: Always 1 or 0
+ */
+
+int _isalpha(int c);
 #endif
