@@ -2,18 +2,18 @@
 #include "main.h"
 
 /**
- * main - entry point
+ * print_alphabet - entry point
  *
  * Return: always 0
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	int alph;
+	int letter;
 
-	for (alph = 'a'; alph <= 'z'; alph++)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		_putchar(alph);
+		_putchar(letter);
 	}
 	_putchar('\n');
 
