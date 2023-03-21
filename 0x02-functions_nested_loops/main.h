@@ -7,4 +7,11 @@
  */
 
 int _putchar(char c);
+
+/**
+ * print_alphabet - prints letters of the alphabet
+ * Return: 0 or 1
+ */
+ 
+void print_alphabet(void);
 #endif
