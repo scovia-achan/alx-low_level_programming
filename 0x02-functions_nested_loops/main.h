@@ -38,4 +38,12 @@ int _islower(int c);
  */
 
 int _isalpha(int c);
+
+/**
+ * add(int, int) - add two numbers
+ *
+ * Return: returns sum
+ */
+
+int add(int, int);
 #endif
