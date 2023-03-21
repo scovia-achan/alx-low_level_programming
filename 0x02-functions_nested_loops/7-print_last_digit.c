@@ -13,7 +13,7 @@ int print_last_digit(int a)
 {
 	int remainder;
 
-	remainder = a & 10;
+	remainder = a % 10;
 
 	return (remainder);
 }
