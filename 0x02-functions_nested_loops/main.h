@@ -70,4 +70,12 @@ int _abs(int);
  */
 
 int print_sign(int n);
+
+/**
+ * jack_bauer - prints every minute of a day
+ *
+ * Return: returns 0
+ */
+
+void jack_bauer(void);
 #endif
