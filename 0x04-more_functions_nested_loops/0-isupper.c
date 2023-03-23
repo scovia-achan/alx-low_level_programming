@@ -9,15 +9,12 @@
 
 int _isupper(int c)
 {
-	int res;
-
-	if (isupper(c))
+	if ((c >= 'A') && (c <= 'Z'))
 	{
-		res = _putchar('0' + 1);
+		return (1);
 	}
 	else
 	{
-		res = _putchar('0' + 0);
+		return (0);
 	}
-	return (res);
 }
