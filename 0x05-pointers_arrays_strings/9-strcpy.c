@@ -5,12 +5,12 @@
  * *_strcpy - copy a string from source to destination
  * @dest: where the string will be copied
  * @src: where the string is being copied from
- * return: dest
+ * Return: returns dest
  */
 
 char *_strcpy(char *dest, char *src)
 {
-	int length;
+	size_t length;
 	int i;
 
 	length = strlen(src);
