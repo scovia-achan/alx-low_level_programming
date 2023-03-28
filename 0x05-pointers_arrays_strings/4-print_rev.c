@@ -21,7 +21,7 @@ void print_rev(char *s)
 	{
 		temp = s[i];
 		s[i] = s[str_len - i - 1];
-		s[str_len - i - 1];
+		s[str_len - i - 1] = temp;
 	}
 	_putchar('\n');
 }

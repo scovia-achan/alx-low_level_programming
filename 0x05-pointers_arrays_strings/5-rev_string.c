@@ -12,6 +12,7 @@ void rev_string(char *s)
 	int i;
 	int str_len;
 	int temp;
+	int middle;
 
 	str_len = strlen(s);
 	middle = str_len / 2;
@@ -20,6 +21,6 @@ void rev_string(char *s)
 	{
 		temp = s[i];
 		s[i] = s[str_len - i - 1];
-		s[str_len - i - 1];
+		s[str_len - i - 1] = temp;
 	}
 }
