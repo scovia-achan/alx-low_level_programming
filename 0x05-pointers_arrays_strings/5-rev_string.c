@@ -2,12 +2,12 @@
 #include <string.h>
 
 /**
- * print_rev - print a string in reverse
+ * rev_string - print a string in reverse
  * @s: parameter
  * return: returns 0
  */
 
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int i;
 	int str_len;
@@ -22,5 +22,4 @@ void print_rev(char *s)
 		s[i] = s[str_len - i - 1];
 		s[str_len - i - 1];
 	}
-	_putchar('\n');
 }
