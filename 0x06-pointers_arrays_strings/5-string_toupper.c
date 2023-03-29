@@ -11,7 +11,7 @@ char *string_toupper(char *s)
 	int i;
 
 	/*Check if character is uppercase by checking it's ASCII value*/
-	for (i = 0; *[i]; i++)
+	for (i = 0; s[i]; i++)
 	{
 		if (s[i] >= 97 && s[i] <= 122)
 		{
