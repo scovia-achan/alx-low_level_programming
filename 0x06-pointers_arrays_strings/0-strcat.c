@@ -2,7 +2,7 @@
 
 /**
  * *_strcat -  concatenate two strings
- * @deest: destination parameter
+ * @dest: destination parameter
  * @src: source parameter
  * Return: returns destination
  */
@@ -11,17 +11,17 @@ char *_strcat(char *dest, char *src)
 {
 	int length;
 
-	length_src = 0;
-	while (src[length_src] != '\0')
+	length_dest = 0;
+	while (dest[length_dest] != '\0')
 	{
-		++length_src;
+		++length_dest;
 	}
 
-	for (int i = 0; dest[i] != '\0'; ++length_dest)
+	for (int i = 0; src[i] != '\0'; ++length_dest)
 	{
-		src[length_dest] = dest[i];
+		dest[length_dest] = src[i];
 	}
 
-	src[length_dest] = '\0';
+	dest[length_dest] = '\0';
 	return (dest);
 }
