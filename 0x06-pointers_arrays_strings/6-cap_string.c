@@ -9,15 +9,22 @@
 char *cap_string(char *s)
 {
 	int i;
+	char *ptr = s;
 
-	char special[13] = {'\n', ' ', '\t', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'}
+	char nun[] = " \t\n,.!?\"(){}";
+	int cap = 1;
 
-	for (i = 0; i < 13; i++)
+	while (*s)
 	{
-		if (special[i] == s)
+		if (cap && *s >= 'a' && *s <= 'z')
+			*s -= 32;
+		cap = 0;
+		for (i = 0; i < 12; i++)
 		{
-			return (1);
+			if (*s == nun[i])
+				cap = 1;
 		}
+		s++;
 	}
-	return (0);
+	return (ptr);
 }
