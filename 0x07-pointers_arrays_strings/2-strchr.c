@@ -2,7 +2,7 @@
 
 /**
  * *_strchr - look for character
- * @s: pointer to string
+ * @s: string
  * @c: character to be found
  * Return: returns c or null if c is not found
  */
