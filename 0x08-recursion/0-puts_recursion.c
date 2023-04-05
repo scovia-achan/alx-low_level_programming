@@ -8,9 +8,11 @@
 
 void _puts_recursion(char *s)
 {
-	for (int i = 0; i <= strlen(s); i++)
+	long int i;
+
+	for (i = 0; i <= strlen(s); i++)
 	{
 		_putchar(*s);
-		_putchar('\n');
 	}
+	_putchar('\n');
 }
