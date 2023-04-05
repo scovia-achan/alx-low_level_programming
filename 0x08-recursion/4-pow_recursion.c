@@ -9,6 +9,7 @@
 
 int _pow_recursion(int x, int y)
 {
+	/* Base case; and y number raised to the power zero is 1 */
 
 	if (y == 0)
 	{
