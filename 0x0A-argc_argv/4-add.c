@@ -5,7 +5,7 @@
 /**
  * check - checks if an input is a digit
  * @str: string to check
- * Returns: True or false
+ * Return: True or false (boolean)
  */
 
 int check(char *str)
