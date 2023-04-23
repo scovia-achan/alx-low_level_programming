@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <stdlib.h>
+#include "3-calc.h"
 /**
  * main - entry point of the program
  * Return: Always 0 (success)
@@ -23,7 +24,7 @@ int main(int argc, char **argv)
 	b = atoi(argv[3]);
 
 	ptr = get_op_func(argv[2]);
-	if (p == NULL)
+	if (ptr == NULL)
 	{
 		printf("Error\n");
 		exit(99);
