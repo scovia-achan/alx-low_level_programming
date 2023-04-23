@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+#include <stdarg.h>
+#include <stdlib.h>
 /**
  * main - entry point of the program
  * Return: Always 0 (success)
