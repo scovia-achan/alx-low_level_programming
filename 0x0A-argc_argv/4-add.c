@@ -14,12 +14,12 @@ int check(char *str)
 
 	for (count = 0; str[count] != '\0'; count++)
 	{
-		if (isdigit(str[count]))
+		if (!isdigit(str[count]))
 		{
-			return (1);
+			return (0);
 		}
 	}
-	return (0);
+	return (1);
 }
 
 /**
@@ -38,7 +38,7 @@ int main(int argc, char **argv)
 	{
 		for (i = 1; i < argc; i++)
 		{
-			if (!check(argv[i]))
+			if (check(argv[i]))
 			{
 				sum += atoi(argv[i]);
 			}
