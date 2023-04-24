@@ -38,7 +38,7 @@ int main(int argc, char **argv)
 	{
 		for (i = 1; i < argc; i++)
 		{
-			if (check(argv[i]))
+			if (!check(argv[i]))
 			{
 				sum += atoi(argv[i]);
 			}
