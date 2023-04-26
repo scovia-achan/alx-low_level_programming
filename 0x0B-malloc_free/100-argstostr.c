@@ -13,9 +13,9 @@ char *argstostr(int ac, char **av)
 {
 	char *ptr;
 	int i, j, k, n, m;
+	int count = 0;
 
 	k = 0;
-	int count = 0;
 
 	if (ac == 0)
 		return (NULL);
